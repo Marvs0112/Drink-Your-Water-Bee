@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Drink Water Bee</string>
+    <string name="channel_name">Water Reminder</string>
+    <string name="channel_description">Reminders to drink water throughout the day</string>
+    <string name="notification_title">Time to drink water!</string>
+    <string name="notification_text">Stay hydrated - take a sip of water now</string>
+    <string name="progress">248</string>
+    <string name="goal">2048</string>
+    <string name="app_tips">Do not drink cold water or water with ice</string>
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pi">
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtview1"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+
+            android:text="weight"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/weighttxt"
+            android:layout_width="0dp"
+            android:layout_weight=".70"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@+id/txtview1"
+            android:hint="please enter your weight"
+            android:inputType="number"
+            app:layout_constraintBaseline_toBaselineOf="@+id/txtview1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtview2"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="workout"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/workoutid"
+            android:layout_width="0dp"
+            android:layout_weight=".70"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="5dp"
+            android:hint="workout in minutes per day"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_weight=".20"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:text="wakeup"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/selectWakeup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_weight=".30"
+            android:backgroundTint="@color/Blue"
+            android:text="select"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/wakeUptxt"
+            android:layout_width="0dp"
+            android:layout_weight=".20"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="8:00 am"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/selectWakeup"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/l4"
+        android:layout_below="@+id/l3"
+        android:layout_marginTop="30dp"
+        >
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_weight=".20"
+                android:layout_height="wrap_content"
+                android:text="Bed time"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                 />
+        <Button
+
+            android:id="@+id/selectBedtime"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="select"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/Blue"
+            android:textColor="@color/black"
+
+
+            />
+        <TextView
+            android:id="@+id/bedTimetxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20"
+            android:text="11:00 pm"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/startbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:backgroundTint="@color/Blue"
+            android:textColor="@color/black"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cornerRadius="15dp"
+
+            android:textStyle="bold"
+
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/l4"
+            android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

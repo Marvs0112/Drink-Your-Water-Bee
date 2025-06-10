@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CupsManager">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Current size of your cup is : " />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/CupSizeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text1" />
+
+
+
+        <Button
+            android:id="@+id/cup100ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/Blue"
+            android:drawableLeft="@mipmap/ic_cup1"
+            android:text="100 ml"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/cup150ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/cup100ml"
+            android:backgroundTint="@color/Blue"
+            android:drawableLeft="@mipmap/ic_cup3"
+            android:text="150 ml"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/cup200ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cup100ml"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/Blue"
+            android:drawableLeft="@mipmap/ic_cup4"
+            android:text="200 ml"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/cup250ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cup100ml"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/cup100ml"
+            android:backgroundTint="@color/Blue"
+            android:drawableLeft="@mipmap/ic_cup6"
+            android:text="250 ml"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/cup300ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cup200ml"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/Blue"
+            android:drawableLeft="@mipmap/ic_cup8"
+            android:text="300 ml"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/cup400ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cup250ml"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/cup100ml"
+            android:backgroundTint="@color/Blue"
+            android:drawableLeft="@mipmap/ic_cup7"
+            android:text="400 ml"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+
+        <EditText
+            android:id="@+id/customizeEditText"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cup300ml"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Enter your custom size here"
+            android:inputType="textPersonName" />
+        <Button
+            android:id="@+id/cupCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customizeEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/Blue"
+            android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
+            android:text="Customise"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
