@@ -55,12 +55,7 @@ Open the project in Android Studio and let it handle the dependencies.
 
   Connect your Android device or use an emulator.
 Build and run the app to start tracking your water intake.
-## Contributing
- 
- Contributions are welcome! If you’d like to improve the app, fix bugs, or add new features, feel free to submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Benyormin/DrinkWaterReminder/blob/main/LICENSE) file for details.
 
 Remember, staying hydrated is essential for your health. Cheers to a well-hydrated you! 🥤💧
 
