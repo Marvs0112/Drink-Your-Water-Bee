@@ -65,8 +65,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 Remember, staying hydrated is essential for your health. Cheers to a well-hydrated you! 🥤💧
 
 ## Images 
- ![photo_2024-04-11_00-00-11.jpg]((https://github.com/Marvs0112/Drink-Your-Water-Bee/blob/main/Images/Image_start.png))
-
+ ![image1](https://github.com/Marvs0112/Drink-Your-Water-Bee/blob/main/Images/Image_start.png)
  ![image2](https://github.com/Marvs0112/Drink-Your-Water-Bee/blob/main/Images/Image_Home.png)
  ![Image3](https://github.com/Marvs0112/Drink-Your-Water-Bee/blob/main/Images/Image_Cup.png)
  ![Image4](https://github.com/Marvs0112/Drink-Your-Water-Bee/blob/main/Images/Image_Notification.png)
